@@ -1,0 +1,32 @@
+# Environment variables
+.env
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Hugging Face cache (models can be huge)
+.cache/
+huggingface/
+**/hf_cache/
+
+# FAISS / vector store artifacts (optional but recommended)
+*.faiss
+*.index
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
